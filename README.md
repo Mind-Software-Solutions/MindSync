@@ -3,8 +3,26 @@ LandingPage of MindSync App personal assistant for ASD
 
 ## License
 
-This project is **not open source**.
+This project is **not open source** is a Propietary Software exclusive for Mind Software Solutions and development by Mind Software Solutions.
 
 © 2026 Mind Software Solutions. All rights reserved.
 
 No permission is granted to use, copy, modify, merge, publish, distribute, sublicense, or sell this software without explicit written permission from the copyright holder.
+
+## Usage Restrictions
+
+You are NOT permitted to:
+- Copy or reproduce this codebase
+- Modify or create derivative works
+- Redistribute this project in any form
+- Use this project for commercial purposes without permission
+
+## Permitted Use
+
+This repository is provided for viewing and evaluation purposes only.
+No rights are granted for production use or redistribution.
+
+## Contributions
+
+This project does not accept public contributions.
+Contributions are limited to authorized collaborators only (Mind Software Solutions Development Team).
