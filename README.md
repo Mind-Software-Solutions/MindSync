@@ -2,7 +2,12 @@
 LandingPage of MindSync App personal assistant for ASD
 
 ## Development Team
-  - Kobashigawa Ugaz (u202412921) [Team Leader]
+  - Kobashigawa Ugaz (Software Engineer) [Team Leader]
+  - Cordero Casavilca (Systems Engineer)
+  - Enriquez Palacios (Systems Engineer)
+  - Gilvonio Pineda (Software Engineer)
+  - Lazarte Damian (Software Engineer)
+  - Osorio Niquin (Software Engineer)
 
 ## License
 
