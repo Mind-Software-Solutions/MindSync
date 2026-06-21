@@ -1,6 +1,9 @@
 # MindSync
 LandingPage of MindSync App personal assistant for ASD
 
+## Development Team
+  - Kobashigawa Ugaz (u202412921) [Team Leader]
+
 ## License
 
 This project is **not open source** is a Propietary Software exclusive for Mind Software Solutions and development by Mind Software Solutions.
