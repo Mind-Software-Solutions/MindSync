@@ -1,0 +1,86 @@
+@media (max-width: 768px) {
+  .Div-Footer {
+    flex-direction: column;
+
+    align-items: center;
+
+    text-align: center;
+  }
+
+  .Contact-Logo img {
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+    margin-right: 2.5rem;
+  }
+
+  .Horizontal-Menu {
+    display: none;
+
+    flex-direction: column;
+
+    width: 100%;
+
+    background-color: white;
+
+    position: absolute;
+
+    top: 5rem;
+
+    left: 0;
+  }
+
+  .Horizontal-Menu.active {
+    display: flex;
+    background-color: #a7c7e7;
+  }
+
+  .Horizontal-Menu li {
+    border-bottom: 1px solid #ccc;
+  }
+
+  .General-Div-Home {
+    flex-direction: column;
+
+    text-align: center;
+  }
+
+  .Div-Home-IMG img {
+    width: 90%;
+
+    margin: 0 auto;
+  }
+
+  .Div-Home-txt {
+    font-size: 1.1rem;
+  }
+
+  .General-Div-Preview {
+    flex-direction: column;
+
+    text-align: center;
+  }
+
+  .Div-Preview-txt {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .contacto-contenido {
+    flex-direction: column;
+  }
+
+  .formulario-contacto,
+  .contacto-instrucciones {
+    width: 100%;
+  }
+
+  .mensaje-enviado {
+    text-align: center;
+  }
+}
