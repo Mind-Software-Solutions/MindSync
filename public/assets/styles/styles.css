@@ -267,3 +267,18 @@ body {
   font-weight: bold;
   cursor: pointer;
 }
+
+.menu-toggle {
+  display: none;
+
+  font-size: 2rem;
+
+  background: none;
+
+  border: none;
+
+  cursor: pointer;
+
+  margin-right: 1rem;
+}
+
