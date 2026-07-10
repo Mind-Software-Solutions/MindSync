@@ -79,3 +79,191 @@ body {
 .UserIMG {
   margin-right: 150px;
 }
+/* Tutores */
+
+.tutor {
+  display: flex;
+  align-items: center;
+  border-bottom: 4px solid #eadcff;
+  padding: 12px 0;
+  cursor: pointer;
+}
+
+.tutor input {
+  display: none;
+}
+
+.foto-tutor {
+  width: 65px;
+  height: 65px;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foto-tutor img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info-tutor {
+  width: 70%;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.info-tutor h4 {
+  font-size: 20px;
+  color: #000000;
+}
+
+.info-tutor h5 {
+  font-size: 19px;
+  color: #3f8ee9;
+}
+
+.info-tutor p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.opcion-tutor {
+  width: 45px;
+  height: 45px;
+  border: 4px solid #000000;
+  border-radius: 50%;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tutor input:checked ~ .opcion-tutor::after {
+  content: "✓";
+  font-size: 26px;
+  font-weight: bold;
+}
+
+/* Calendario */
+
+.calendario {
+  width: 100%;
+  border: 1px solid #d9d9d9;
+  border-radius: 15px;
+  padding: 18px;
+}
+
+.calendario-arriba {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.calendario-arriba button {
+  background-color: #ffffff;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.calendario-arriba select {
+  padding: 6px 18px;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+}
+
+.calendario table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.calendario th {
+  color: #777777;
+  font-size: 14px;
+  padding-bottom: 12px;
+}
+
+.calendario td {
+  width: 40px;
+  height: 40px;
+}
+
+.calendario td label {
+  cursor: pointer;
+}
+
+.calendario td input {
+  display: none;
+}
+
+.calendario td span {
+  width: 35px;
+  height: 35px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #333333;
+  border-radius: 8px;
+}
+
+.calendario td input:checked ~ span {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.dia-bajo {
+  color: #b5b5b5 !important;
+}
+
+/* Formulario */
+
+.formulario-sesion {
+  width: 100%;
+}
+
+.campo {
+  margin-bottom: 15px;
+}
+
+.campo label {
+  display: block;
+  color: #3f8ee9;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.campo input,
+.campo select {
+  width: 100%;
+  height: 50px;
+  background-color: #9ee8f0;
+  border: none;
+  border-radius: 25px;
+  padding: 0 25px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #666666;
+}
+
+.formulario-sesion button {
+  width: 75%;
+  height: 52px;
+  display: block;
+  margin: auto;
+  background-color: #3f8ee9;
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}

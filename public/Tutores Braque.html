@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="assets/images/MindSync Logo.png" type="image/x-icon" />
+    <title>MindSync | Agendar</title>
+    <link rel="stylesheet" href="assets/styles/styles.css" />
+    <link rel="stylesheet" href="assets/styles/Section_styles.css">
+  </head>
+
+  <body>
+    <nav class="Top-Header">
+      <ul class="Horizontal-Menu">
+        <div class="logo">
+          <a href="" class="Logo">
+            <img src="assets/images/MindSync Banner.png" alt="Logo"></img>
+          </a>
+        </div>
+        
+        <li><a href="" class="active">Home</a></li>
+        <li><a href="Download.html">Download</a></li>
+        <li><a href="">Tutores</a></li>
+        <li><a href="">About Us</a></li>
+        <li>
+          <a href="" class="UserIMG">
+            <img src="assets/images/user.png" alt="UserIMG">
+          </a>
+          <ul class="Vertical-Menu">
+            <li><a href="">Cuenta</a></li>
+            <li><a href="Login.html">Iniciar Session</a></li>
+            <li><a href="Register.html">Registrarse</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <br>
+    <br>
+    <!-- Seccion agendar -->
+    <section class="seccion-agendar">
+      <div class="contenedor-agendar">
+        <div class="columna-tutores">
+          <h3>1. Selecciona un Tutor</h3>
+
+          <label class="tutor">
+            <input type="radio" name="tutor" checked />
+
+            <div class="foto-tutor">
+              <img
+                src="assets/images/perfil-maria.png"
+                alt="Perfil María Fernanda"
+              />
+            </div>
+
+            <div class="info-tutor">
+              <h4>María Fernanda</h4>
+              <h5>Psicóloga</h5>
+              <p>Especialista en TEA e intervención conductual</p>
+            </div>
+
+            <span class="opcion-tutor"></span>
+          </label>
+
+          <label class="tutor">
+            <input type="radio" name="tutor" />
+
+            <div class="foto-tutor">
+              <img src="assets/images/perfil-diego.png" alt="Perfil Diego Salazar" />
+            </div>
+
+            <div class="info-tutor">
+              <h4>Diego Salazar</h4>
+              <h5>Terapeuta Ocupacional</h5>
+              <p>Experto en integración sensorial y autonomía</p>
+            </div>
+
+            <span class="opcion-tutor"></span>
+          </label>
+
+          <label class="tutor">
+            <input type="radio" name="tutor" />
+
+            <div class="foto-tutor">
+              <img src="assets/images/perfil-lucia.png" alt="Perfil Lucía Torres" />
+            </div>
+
+            <div class="info-tutor">
+              <h4>Lucía Torres</h4>
+              <h5>Psicopedagoga</h5>
+              <p>Apoyo en aprendizaje, comunicación y habilidades sociales</p>
+            </div>
+
+            <span class="opcion-tutor"></span>
+          </label>
+        </div>
+
+        <div class="columna-calendario">
+          <h3>2. Elige Fecha y hora</h3>
+
+          <div class="calendario">
+            <div class="calendario-arriba">
+              <button type="button">&lt;</button>
+
+              <select>
+                <option>Sep</option>
+                <option>Oct</option>
+                <option>Nov</option>
+              </select>
+
+              <select>
+                <option>2025</option>
+                <option>2026</option>
+                <option>2027</option>
+              </select>
+
+              <button type="button">&gt;</button>
+            </div>
+
+            <table>
+              <thead>
+                <tr>
+                  <th>Su</th>
+                  <th>Mo</th>
+                  <th>Tu</th>
+                  <th>We</th>
+                  <th>Th</th>
+                  <th>Fr</th>
+                  <th>Sa</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td></td>
+                  <td>
+                    <label
+                      ><input type="radio" name="fecha" /><span>1</span></label
+                    >
+                  </td>
+                  <td>
+                    <label
+                      ><input type="radio" name="fecha" /><span>2</span></label
+                    >
+                  </td>
+                  <td>
+                    <label
+                      ><input type="radio" name="fecha" /><span>3</span></label
+                    >
+                  </td>
+                  <td>
+                    <label
+                      ><input type="radio" name="fecha" /><span>4</span></label
+                    >
+                  </td>
+                  <td>
+                    <label
+                      ><input type="radio" name="fecha" /><span>5</span></label
+                    >
+                  </td>
+                  <td>
+                    <label
+                      ><input type="radio" name="fecha" /><span>6</span></label
+                    >
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <label
+                      ><input type="radio" name="fecha" /><span>7</span></label
+                    >
+                  </td>
+                  <td>
+                    <label
+                      ><input type="radio" name="fecha" /><span>8</span></label
+                    >
+                  </td>
+                  <td>
+                    <label
+                      ><input type="radio" name="fecha" checked /><span
+                        >9</span
+                      ></label
+                    >
+                  </td>
+                  <td>
+                    <label
+                      ><input type="radio" name="fecha" /><span>10</span></label
+                    >
+                  </td>
+                  <td>
+                    <label
+                      ><input type="radio" name="fecha" /><span>11</span></label
+                    >
+                  </td>
+                  <td>
+                    <label
+                      ><input type="radio" name="fecha" /><span>12</span></label
+                    >
+                  </td>
+                  <td>
+                    <label
+                      ><input type="radio" name="fecha" /><span>13</span></label
+                    >
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <label
+                      ><input type="radio" name="fecha" /><span>14</span></label
+                    >
+                  </td>
+                  <td>
+                    <label
+                      ><input type="radio" name="fecha" /><span>15</span></label
+                    >
+                  </td>
+                  <td>
+                    <label
+                      ><input type="radio" name="fecha" /><span>16</span></label
+                    >
+                  </td>
+                  <td>
+                    <label
+                      ><input type="radio" name="fecha" /><span>17</span></label
+                    >
+                  </td>
+                  <td>
+                    <label
+                      ><input type="radio" name="fecha" /><span>18</span></label
+                    >
+                  </td>
+                  <td>
+                    <label
+                      ><input type="radio" name="fecha" /><span>19</span></label
+                    >
+                  </td>
+                  <td>
+                    <label
+                      ><input type="radio" name="fecha" /><span>20</span></label
+                    >
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <label
+                      ><input type="radio" name="fecha" /><span>21</span></label
+                    >
+                  </td>
+                  <td>
+                    <label
+                      ><input type="radio" name="fecha" /><span>22</span></label
+                    >
+                  </td>
+                  <td>
+                    <label
+                      ><input type="radio" name="fecha" /><span>23</span></label
+                    >
+                  </td>
+                  <td>
+                    <label
+                      ><input type="radio" name="fecha" /><span>24</span></label
+                    >
+                  </td>
+                  <td>
+                    <label
+                      ><input type="radio" name="fecha" /><span>25</span></label
+                    >
+                  </td>
+                  <td>
+                    <label
+                      ><input type="radio" name="fecha" /><span>26</span></label
+                    >
+                  </td>
+                  <td>
+                    <label
+                      ><input type="radio" name="fecha" /><span>27</span></label
+                    >
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <label
+                      ><input type="radio" name="fecha" /><span>28</span></label
+                    >
+                  </td>
+                  <td>
+                    <label
+                      ><input type="radio" name="fecha" /><span>29</span></label
+                    >
+                  </td>
+                  <td>
+                    <label
+                      ><input type="radio" name="fecha" /><span>30</span></label
+                    >
+                  </td>
+                  <td><span class="dia-bajo">1</span></td>
+                  <td><span class="dia-bajo">2</span></td>
+                  <td><span class="dia-bajo">3</span></td>
+                  <td><span class="dia-bajo">4</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="columna-formulario">
+          <h3>3. Información de la sesión</h3>
+
+          <form class="formulario-sesion">
+            <div class="campo">
+              <label for="nombre">Nombre Completo</label>
+              <input type="text" id="nombre" placeholder="Escribe tu nombre" />
+            </div>
+
+            <div class="campo">
+              <label for="correo">Correo electrónico</label>
+              <input type="email" id="correo" placeholder="tu@correo.com" />
+            </div>
+
+            <div class="campo">
+              <label for="telefono">Teléfono (Opcional)</label>
+              <input type="text" id="telefono" placeholder="Ej. 988 765 833" />
+            </div>
+
+            <div class="campo">
+              <label for="motivo">Motivo de la consulta</label>
+              <select id="motivo">
+                <option>Selecciona un motivo</option>
+                <option>Apoyo psicológico</option>
+                <option>Integración sensorial</option>
+                <option>Apoyo en aprendizaje</option>
+              </select>
+            </div>
+
+            <button type="submit">Confirmar Agendamiento</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+    <section class="Sec-Footer">
+      <div class="Div-Footer">
+        <div class="Copyrigth">
+          <h6 class="Company">©2026 Mind Software Solutions</h6>
+          <h6>All rights Reservate</h6>
+        </div>
+        <div class="Policy">
+          <a href="">Politicas de privacidad</a>
+        </div>
+        <div class="Terms">
+          <a href="">Terminos y condiciones</a>
+        </div>
+        <div class="Contact">
+          <div class="Contact-Container">
+            <div class="Div-Contact">
+              <div class="Contact-Logo">
+                <a href="" class="ServiceLogo">
+                  <img src="assets/images/service.png" alt="ServiceLogo" height="70px" width="70px">
+                </a>
+              </div>
+              <div class="Contact-txt">
+                <h6>correo de soporte:</h6>
+                <a href="" class="Email">support@mindsoftwaresolution.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+  </body>
+</html>
